@@ -7,10 +7,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Hello Toast"
+        android:label="Lab 2"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab2">
+        <activity
+            android:name=".Lab2Task2"
+            android:exported="false" />
         <activity
             android:name=".Lab2Task1"
             android:exported="true">
